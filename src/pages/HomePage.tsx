@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { ArrowRight, Shield, Globe, Award, TrendingUp } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Hero2 from "../components/Hero2";
 import { fadeInUp, stagger } from "../lib/motion";
 import FeaturedPropertiesSection from "../components/FeaturedProperties";
