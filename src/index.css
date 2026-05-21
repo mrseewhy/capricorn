@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold-50: #fdf8ee;
+  --color-gold-100: #f8edcf;
+  --color-gold-200: #f0d99a;
+  --color-gold-300: #e6c063;
+  --color-gold-400: #dba83a;
+  --color-gold-500: #c8911f;
+  --color-gold-600: #b07518;
+  --color-gold-700: #8f5a14;
+  --color-gold-800: #714616;
+  --color-gold-900: #5d3a16;
+  --color-gold-950: #351e09;
+
+  --color-charcoal-50: #f5f4f2;
+  --color-charcoal-100: #e8e5e0;
+  --color-charcoal-200: #d0cbc3;
+  --color-charcoal-300: #b3aaa0;
+  --color-charcoal-400: #948880;
+  --color-charcoal-500: #796d65;
+  --color-charcoal-600: #5e534c;
+  --color-charcoal-700: #453d38;
+  --color-charcoal-800: #2c2622;
+  --color-charcoal-900: #1a1512;
+  --color-charcoal-950: #0d0a08;
+
+  --color-ivory-50: #fdfcf9;
+  --color-ivory-100: #f9f6ef;
+  --color-ivory-200: #f2ecd9;
+  --color-ivory-300: #e8dfc0;
+  --color-ivory-400: #d9cca4;
+
+  --color-terra-400: #c97d5b;
+  --color-terra-500: #b5673e;
+  --color-terra-600: #9a5230;
+
+  --font-serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-sans: "DM Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes shimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  font-family: var(--font-sans);
+  color: var(--color-charcoal-900);
+  background: #ffffff;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-serif);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-charcoal-950);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold-700);
+  border-radius: 3px;
+}
