@@ -4,6 +4,7 @@ import { Play } from "lucide-react";
 import { fadeInUp, stagger } from "../lib/motion";
 import ImageGallery from "../components/ImageGalllery";
 import BackToProperties from "../components/BackToProperties";
+import videoSrc from "../assets/ipetu.mp4";
 
 const Nigeria = () => {
   const images = Object.values(
@@ -34,7 +35,7 @@ const Nigeria = () => {
             >
               <video
                 className="absolute inset-0 w-full h-full object-cover"
-                src="/vid/ipetu.MP4"
+                src={videoSrc}
                 poster="/5.jpeg"
                 autoPlay
                 muted

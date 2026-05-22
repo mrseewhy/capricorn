@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Play } from "lucide-react";
 import { fadeInUp, stagger } from "../lib/motion";
+import videoSrc from "../assets/ipetu.mp4";
 
 const PropertyShowcase = () => {
   return (
@@ -14,7 +15,7 @@ const PropertyShowcase = () => {
           >
             <video
               className="absolute inset-0 w-full h-full object-cover"
-              src="/vid/ipetu.MP4"
+              src={videoSrc}
               poster="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=85&auto=format&fit=crop"
               autoPlay
               muted
