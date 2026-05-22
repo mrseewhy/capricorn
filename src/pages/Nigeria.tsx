@@ -34,7 +34,7 @@ const Nigeria = () => {
             >
               <video
                 className="absolute inset-0 w-full h-full object-cover"
-                src="/vid/ipetu.mp4"
+                src="/vid/ipetu.MP4"
                 poster="/5.jpeg"
                 autoPlay
                 muted

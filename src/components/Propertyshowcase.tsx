@@ -14,7 +14,7 @@ const PropertyShowcase = () => {
           >
             <video
               className="absolute inset-0 w-full h-full object-cover"
-              src="/vid/ipetu.mp4"
+              src="/vid/ipetu.MP4"
               poster="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=85&auto=format&fit=crop"
               autoPlay
               muted
