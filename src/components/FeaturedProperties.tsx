@@ -94,7 +94,7 @@ export default function FeaturedProperties() {
               className="relative z-10 h-full w-full object-cover transition duration-700 group-hover:scale-[1.02]"
               poster="./4.jpeg"
             >
-              <source src="/vid/ipetu.mp4" type="video/mp4" />
+              <source src="/public/vid/ipetu.mp4" type="video/mp4" />
             </video>
 
             {/* subtle overlay */}
