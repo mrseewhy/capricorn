@@ -1,31 +1,8 @@
 import { motion } from "framer-motion";
-import { Shield, Globe, Award, TrendingUp } from "lucide-react";
 import { fadeInUp, stagger } from "../lib/motion";
+import { services } from "../data/Data";
 
 const ServicesSection = () => {
-  const services = [
-    {
-      icon: Shield,
-      title: " Buy & Sell",
-      desc: "Navigate complex transactions with confidence. Our experts guide you through every step.",
-    },
-    {
-      icon: Globe,
-      title: "Global Investment",
-      desc: "Diversify across African markets. We identify high-yield opportunities in emerging luxury corridors.",
-    },
-    {
-      icon: Award,
-      title: "Property Management",
-      desc: "Premium concierge-style management for your investment portfolio across all locations.",
-    },
-    {
-      icon: TrendingUp,
-      title: "Shortlet & Rentals",
-      desc: "Comfortable shortlet and rental properties. Making your dream getaway more affordable and convenient.",
-    },
-  ];
-
   return (
     <section className="py-28" style={{ background: "#ffffff" }}>
       <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">

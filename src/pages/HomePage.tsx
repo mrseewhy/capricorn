@@ -46,29 +46,6 @@ import ServicesSection from "../components/ServicesSection";
 //   },
 // ];
 
-// const services = [
-//   {
-//     icon: Shield,
-//     title: "Buy & Sell",
-//     desc: "Navigate complex transactions with confidence. Our experts guide you through every step.",
-//   },
-//   {
-//     icon: Globe,
-//     title: "Global Investment",
-//     desc: "Diversify across African markets. We identify high-yield opportunities in emerging luxury corridors.",
-//   },
-//   {
-//     icon: Award,
-//     title: "Property Management",
-//     desc: "Premium concierge-style management for your investment portfolio across all locations.",
-//   },
-//   {
-//     icon: TrendingUp,
-//     title: "Market Advisory",
-//     desc: "Data-driven insights on African real estate trends to inform your next strategic move.",
-//   },
-// ];
-
 export default function HomePage() {
   return (
     <main>

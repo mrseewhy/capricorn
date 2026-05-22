@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { fadeInUp, stagger } from "../lib/motion";
 import { ArrowRight } from "lucide-react";
+import { listings } from "../data/Data";
 
 export default function Hero2() {
   return (
@@ -145,12 +146,7 @@ export default function Hero2() {
       >
         <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
           <div className="grid grid-cols-2 lg:grid-cols-4">
-            {[
-              { num: "500+", label: "Premium Listings" },
-              { num: "12+", label: "Years of Excellence" },
-              { num: "3,200+", label: "Satisfied Clients" },
-              { num: "4", label: "African Markets" },
-            ].map(({ num, label }, i) => (
+            {listings.map(({ num, label }, i) => (
               <div
                 key={label}
                 className="px-6 py-5 text-center"
